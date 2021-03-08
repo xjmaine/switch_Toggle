@@ -1,0 +1,22 @@
+
+.switch{
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    position: relative;
+}
+
+.toggle-thumb{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #475569;
+    border-radius: 40px;
+    cursor: pointer;
+}
